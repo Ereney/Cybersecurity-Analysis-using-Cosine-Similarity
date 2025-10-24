@@ -11,4 +11,6 @@ $$\cos(\theta)=\frac{A\cdot B}{|A||B|}$$<br>
 Where;<br>
 - ${A\cdot B}$ is the dot product of the vectors (a measure of how much one vector "goes along" with the other).
 - $|A|$ and $|B|$  are the magnitudes (or lengths) of the vectors.
+## Application of Cosine Similarity on Cybersecurity
+Assuming there are two vectors, v_1 and v_2. Where v_1 is the vector pattern of admin trying to login while v_2 is the pattern of any other person trying to login. Calculating the cosine of the angle between the two vectors will tell us if the second person trying to login is admin or not if the cosine similarity is close to 1.
 
