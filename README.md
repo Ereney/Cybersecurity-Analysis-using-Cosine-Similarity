@@ -15,13 +15,17 @@ Where;<br>
 Assuming there are two vectors, v_1 and v_2. Where v_1 is the vector pattern of admin trying to login while v_2 is the pattern of any other person trying to login. Calculating the cosine of the angle between the two vectors will tell us if the second person trying to login is admin or not if the cosine similarity is close to 1.
 ### Example
 A cybersecurity system monitors network behavior using 5-dimensional activity vectors for each user session:<br>
-$activity vector=[█(DataTransferGB,LoginAttempts,PrivilageRequests,NetworkScans,FailedAuthentications)]$<br>
+$activity vector=[(DataTransferGB,LoginAttempts,PrivilageRequests,NetworkScans,FailedAuthentications)]$<br>
 Considering the below baseline patterns;
-- Normal User: n = [0.8,3,1,0,0]
-- Admin User: a=[2.1,8,5,2,1]
+- Normal User: $n = [0.8,3,1,0,0]$
+- Admin User: $a=[2.1,8,5,2,1]$
 - Suspicious Activity 1: s_1=[15.2,25,12,8,15]
 - Suspicious Activity 2: s_2=[1.2,45,3,15,32]
 - Current Session: c=[3.4,12,7,3,4]
+Required;
+-i.	Calculate cosine similarity between the current session and all baseline patterns
+-ii.	Determine which baseline pattern the current session most resembles
+-iii.	Implement a threshold-based classification system (similarity > 0.8 = same category)
 
 
 
