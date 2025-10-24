@@ -19,9 +19,9 @@ $activity vector=[(DataTransferGB,LoginAttempts,PrivilageRequests,NetworkScans,F
 Considering the below baseline patterns;
 - Normal User: $n = [0.8,3,1,0,0]$
 - Admin User: $a=[2.1,8,5,2,1]$
-- Suspicious Activity 1: s_1=[15.2,25,12,8,15]
-- Suspicious Activity 2: s_2=[1.2,45,3,15,32]
-- Current Session: c=[3.4,12,7,3,4]
+- Suspicious Activity 1: $s_{1}=[15.2,25,12,8,15]$
+- Suspicious Activity 2: $s_{2}=[1.2,45,3,15,32]$
+- Current Session: $c=[3.4,12,7,3,4]$
 Required;
 - Calculate cosine similarity between the current session and all baseline patterns
 - Determine which baseline pattern the current session most resembles
