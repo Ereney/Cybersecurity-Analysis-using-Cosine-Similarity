@@ -1,2 +1,2 @@
 # Cybersecurity Analysis using Cosine Similarity
-*Italic Text* What is Cosine similarity:
+*What is Cosine similarity:*
