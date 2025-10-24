@@ -25,5 +25,15 @@ $$
 \text{FailedAuthentications}
 \end{bmatrix}
 $$
-activity_vector = [DataTransferGB, LoginAttempts, PrivilageRequests, NetworkScans, FailedAuthentications]
+$$
+\text{activity\_vector} =
+\begin{pmatrix}
+\text{DataTransferGB} \\
+\text{LoginAttempts} \\
+\text{PrivilageRequests} \\
+\text{NetworkScans} \\
+\text{FailedAuthentications}
+\end{pmatrix}
+$$
+
 
