@@ -8,7 +8,7 @@ Consider two arrows (vectors) starting from the same point, then;<br>
 ## Mathematics of Cosine Similarity
 It is calculated by finding the cosine of the angle $\theta$  between the two vectors $A$ and $B$:<br>
 $$\cos(\theta)=\frac{A\cdot B}{|A||B|}$$<br>
-Where;\\
-- ${A\cdot B}$ A.B is the dot product of the vectors (a measure of how much one vector "goes along" with the other).
-- $|A|$ and $|B|$  ‖A‖  and ‖B‖ are the magnitudes (or lengths) of the vectors.
+Where;<br>
+- ${A\cdot B}$ is the dot product of the vectors (a measure of how much one vector "goes along" with the other).
+- $|A|$ and $|B|$  are the magnitudes (or lengths) of the vectors.
 
