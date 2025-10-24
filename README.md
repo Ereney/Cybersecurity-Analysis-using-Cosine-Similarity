@@ -6,7 +6,9 @@ Consider two arrows (vectors) starting from the same point, then;<br>
 -	If the arrows are perpendicular (forming a 90-degree angle), their cosine similarity is 0. This means they are "unrelated" in direction.
 -	If the arrows point in opposite directions, their cosine similarity is -1.
 ## Mathematics of Cosine Similarity
-It is calculated by finding the cosine of the angle $\theta$  between the two vectors $A$ and $B$:
-$$
-\cos(\theta)=\frac{A\cdot B}{|A||B|}
-$$
+It is calculated by finding the cosine of the angle $\theta$  between the two vectors $A$ and $B$:<br>
+$$\cos(\theta)=\frac{A\cdot B}{|A||B|}$$
+\\Where;
+- ${A\cdot B}$ A.B is the dot product of the vectors (a measure of how much one vector "goes along" with the other).
+- $|A|$ and $|B|$  ‖A‖  and ‖B‖ are the magnitudes (or lengths) of the vectors.
+
