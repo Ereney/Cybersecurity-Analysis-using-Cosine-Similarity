@@ -23,9 +23,9 @@ Considering the below baseline patterns;
 - Suspicious Activity 2: s_2=[1.2,45,3,15,32]
 - Current Session: c=[3.4,12,7,3,4]
 Required;
--i.	Calculate cosine similarity between the current session and all baseline patterns
--ii.	Determine which baseline pattern the current session most resembles
--iii.	Implement a threshold-based classification system (similarity > 0.8 = same category)
+- Calculate cosine similarity between the current session and all baseline patterns
+- Determine which baseline pattern the current session most resembles
+- Implement a threshold-based classification system (similarity > 0.8 = same category)
 
 
 
