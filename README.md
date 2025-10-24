@@ -7,4 +7,6 @@ Consider two arrows (vectors) starting from the same point, then;<br>
 -	If the arrows point in opposite directions, their cosine similarity is -1.
 ## Mathematics of Cosine Similarity
 It is calculated by finding the cosine of the angle $\theta$  between the two vectors $A$ and $B$:
-$$\cos(\theta)=\frac{A\cdot B}{|A||B|}$$
+$$
+\cos(\theta)=\frac{A\cdot B}{|A||B|}
+$$
