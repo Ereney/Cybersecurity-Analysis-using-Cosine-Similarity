@@ -18,11 +18,11 @@ A cybersecurity system monitors network behavior using 5-dimensional activity ve
 $activity vector=[█(DataTransferGB@LoginAttempts@PrivilageRequests@NetworkScans@FailedAuthentications)]$
 $$
 \vec{A} = \begin{pmatrix}
-DataTransferGB \\
-LoginAttempts \\
-PrivilageRequests\\
-NetworkScans\\
-FailedAuthentications
+\text{DataTransferGB} \\
+\text{LoginAttempts} \\
+\text{PrivilageRequests}\\
+\text{NetworkScans}\\
+\text{FailedAuthentications}
 \end{pmatrix}
 $$
 
